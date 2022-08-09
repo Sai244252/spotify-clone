@@ -1,0 +1,62 @@
+.sidebar {
+  height: 100vh;
+  color: white;
+  max-width: 30vw;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #040404;
+  text-decoration: none;
+}
+
+.sidebar__logo {
+  margin-right: auto;
+  height: 8vw;
+  padding: 10px;
+}
+
+.sidebar__title {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.sidebar_nav {
+  text-decoration: none;
+}
+
+.sidebar_nav:active {
+  color: white;
+}
+
+.sidebar__bottom {
+  overflow-y: auto;
+  max-height: 45vh;
+}
+
+.sidebar__bottom::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+.sidebar__bottom::-webkit-scrollbar-thumb {
+  background: #999;
+}
+.sidebar__bottom::-webkit-scrollbar-track {
+  background: #333;
+}
+
+.sidebar__create__playlist__icon {
+  font-size: small;
+  color: rgb(0, 204, 255);
+  opacity: 0.6;
+}
+
+.sidebar__create__playlist__icon:hover {
+  opacity: 1;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar__playlists {
+  display: flex;
+  justify-content: space-between;
+}

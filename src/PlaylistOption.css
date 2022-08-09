@@ -1,0 +1,28 @@
+.playlist__body {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 15px;
+}
+
+.playlist__img {
+  height: 50px;
+  width: 50px;
+}
+
+.title {
+  display: flex;
+  justify-content: left;
+  margin: 5px;
+}
+
+.title > p {
+  margin: 10px;
+}
+
+td {
+  padding: 5px;
+}
+
+td:hover {
+  cursor: pointer;
+}

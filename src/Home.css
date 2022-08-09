@@ -1,0 +1,79 @@
+.home {
+  width: 100%;
+  display: flex;
+  overflow-y: overlay;
+  height: 100vh;
+  color: white;
+  background: linear-gradient(transparent, rgb(75, 33, 33));
+  background-color: rgb(91, 87, 115);
+}
+
+.home__sidebar {
+  display: flex;
+  flex: 0.2%;
+}
+
+.home__body {
+  flex: 0.8%;
+  margin: 50px;
+  overflow-y: scroll;
+  font-size: 15px;
+}
+
+.home__body::-webkit-scrollbar {
+  display: none;
+}
+
+.home__box {
+  margin: 40px;
+  margin-left: -1px;
+  padding: 10px;
+  box-shadow: 10px 14px 60px rgba(0, 0, 0, 0.5);
+}
+
+.home__boxImg {
+  padding: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 190px;
+  height: 190px;
+}
+
+.home__box__text {
+  padding: 10px;
+  display: flex;
+}
+
+.home__box__info {
+  display: flex;
+  overflow-x: auto;
+}
+
+.home__box__info::-webkit-scrollbar {
+  width: 10px; /* Mostly for vertical scrollbars */
+  height: 10px; /* Mostly for horizontal scrollbars */
+}
+.home__box__info::-webkit-scrollbar-thumb {
+  /* Foreground */
+  background: #999;
+}
+.home__box__info::-webkit-scrollbar-track {
+  /* Background */
+  background: #333;
+}
+
+.home__box__title {
+  padding: 10px;
+  display: flex;
+}
+
+.home__line {
+  color: black;
+  margin: 10px;
+  opacity: 0.7;
+}
+
+.home__header {
+  position: sticky;
+}

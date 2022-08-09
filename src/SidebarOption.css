@@ -1,0 +1,41 @@
+.sidebarOption {
+  display: flex;
+  color: gray;
+  padding: 5px;
+  height: 40px;
+  cursor: pointer;
+  transition: 200ms color ease-in;
+}
+
+.sidebarOption:hover {
+  color: white;
+}
+
+.sidebarOption__Icon {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sidebarOption:hover {
+  color: antiquewhite;
+}
+
+.sidebar > hr {
+  border: 1px solid #282828;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.sidebarOption > i {
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.sidebar__option {
+  overflow: auto;
+}
+
+.sidebarOption__playlists {
+  overflow-y: scroll;
+  margin-bottom: 100px;
+}
