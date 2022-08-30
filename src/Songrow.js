@@ -7,7 +7,7 @@ function Songrow({ track = "test" }) {
 
   const playSelectedSong = () => {
     // console.log(track);
-    dispatch({ type: "SET_SELECTED_SONG", selectedSong: track.id });
+      dispatch({ type: "SET_URI", uri: track?.uri });
   };
 
   return (
